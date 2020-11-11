@@ -5,6 +5,7 @@ let option2 = document.getElementById("option2");
 let option3 = document.getElementById("option3");
 let option4 = document.getElementById("option4");
 let currentRoom;
+import {rooms2} from "./roomlist.js";
 const rooms={
 	mainRoom:{
 		roomName: "roomTest",
