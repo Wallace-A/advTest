@@ -1,14 +1,15 @@
 
-document.getElementById ("option1").addEventListener ("click", buttonClicked("option1"), false);
-document.getElementById ("option2").addEventListener ("click", buttonClicked("option2"), false);
-document.getElementById ("option3").addEventListener ("click", buttonClicked("option3"), false);
-document.getElementById ("option4").addEventListener ("click", buttonClicked("option4"), false);
+
 let roomText = document.getElementById("mainText");
 let option1 = document.getElementById("option1");
 let option2 = document.getElementById("option2");
 let option3 = document.getElementById("option3");
 let option4 = document.getElementById("option4");
 let currentRoom;
+document.getElementById ("option1").addEventListener ("click", buttonClicked(option1), false);
+document.getElementById ("option2").addEventListener ("click", buttonClicked(option2), false);
+document.getElementById ("option3").addEventListener ("click", buttonClicked(option3), false);
+document.getElementById ("option4").addEventListener ("click", buttonClicked(option4), false);
 import {rooms} from "./roomlist.js";
 
 const rooms2={
