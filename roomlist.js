@@ -1,4 +1,4 @@
-module.export const rooms2={
+export const rooms2={
 	mainRoom:{
 		roomName: "roomTest",
 		roomText: "You enter the room. Torchlight flickers down the corridor ahead.",
