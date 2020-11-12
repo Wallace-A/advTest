@@ -1,4 +1,8 @@
 
+document.getElementById ("option1").addEventListener ("click", buttonclicked("option1"), false);
+document.getElementById ("option2").addEventListener ("click", buttonclicked("option2"), false);
+document.getElementById ("option3").addEventListener ("click", buttonclicked("option3"), false);
+document.getElementById ("option4").addEventListener ("click", buttonclicked("option4"), false);
 let roomText = document.getElementById("mainText");
 let option1 = document.getElementById("option1");
 let option2 = document.getElementById("option2");
