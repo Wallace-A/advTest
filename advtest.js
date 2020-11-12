@@ -5,10 +5,9 @@ let option2 = document.getElementById("option2");
 let option3 = document.getElementById("option3");
 let option4 = document.getElementById("option4");
 let currentRoom;
-import {rooms2} from "./roomlist.js";
-console.log(rooms2);
-console.log("why is this not working");
-const rooms={
+import {rooms} from "./roomlist.js";
+
+const rooms2={
 	mainRoom:{
 		roomName: "roomTest",
 		roomText: "You enter the room. Torchlight flickers down the corridor ahead.",
